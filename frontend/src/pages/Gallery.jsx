@@ -20,14 +20,11 @@ const Gallery = () => {
         console.warn('API gallery error, fallback loaded:', err.message);
         // Fallback items if API is offline
         setItems([
-          { id: '1', title: 'Hyderabadi Chicken Dum Biryani', category: 'Food Gallery', image: 'https://images.unsplash.com/photo-1633945274405-b6c8069047b0?q=80&w=800' },
-          { id: '2', title: 'Tandoori Starter Platter', category: 'Food Gallery', image: 'https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?q=80&w=800' },
-          { id: '3', title: 'Spicy Nellore Fish Curry', category: 'Food Gallery', image: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=800' },
-          { id: '4', title: 'Family Dining Main Hall', category: 'Restaurant Interior', image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800' },
-          { id: '5', title: 'Cozy Dining Table setup', category: 'Restaurant Interior', image: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=800' },
-          { id: '6', title: 'Happy Birthday Celebration', category: 'Customer Moments', image: 'https://images.unsplash.com/photo-1543007630-9710e4a00a20?q=80&w=800' },
-          { id: '7', title: 'Anniversary Dinner Party', category: 'Customer Moments', image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800' },
-          { id: '8', title: 'Signature Cashew Paneer', category: 'Food Gallery', image: 'https://images.unsplash.com/photo-1601050690597-df056fb4ce78?q=80&w=800' }
+          { id: '1', title: 'Aroma Garden Entrance', category: 'Restaurant Interior', image: 'https://lh3.googleusercontent.com/gps-cs-s/APNQkAFKyGsJvSDCd2Apn-iWeQ3dcvH7jznnilPxm9GBcnPZjwsKJ6xcFRpqbWTOHm65C8p5GIraPZ8urtLNyrJqGZzxtw8b7vmALnZeNfGfzp-FZguyXxVPZixJdSIv6zAGNQtwvVDbwJ08xy26=s1360-w1360-h1020-rw' },
+          { id: '2', title: 'Beautiful Garden Seating', category: 'Restaurant Interior', image: 'https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4iV6FzFhfh-IEOg4wOIIPko5FTRjRJLw1XmX2S3N5WUAvvtuC7ctNXw4Z6oHlx_M9aXbofA8kn-hHQb7Dzca2E_xTRvquRuKgpw5pA2kP5rIvul_uFq_4T7Z-eZbLgX48EtuqT-rCZHA=s1360-w1360-h1020-rw' },
+          { id: '3', title: 'Family Dining Lounge', category: 'Restaurant Interior', image: 'https://lh3.googleusercontent.com/gps-cs-s/APNQkAH0Gcil2t_Q26lkwWCS5WX3oEjqkwM7qLEvl42CK-cB9IPvelM64aD5bF-X_oIEY5vYGTC-81rDIYttGVzuUWWV45JiXunXaSfX7i817RMdmTVmS7mjJbkg5KVN37nhQ9b7ucTqo1diUXj_=s1360-w1360-h1020-rw' },
+          { id: '4', title: 'Scenic Outdoor Seating', category: 'Restaurant Interior', image: 'https://lh3.googleusercontent.com/gps-cs-s/APNQkAElgEuiNZ2gNjkaM8LI6le09zAvqm28s5Txtls-YIxzRC1eQfQfctBnwv84AgINzaNSjuFAZUoBacHplnmxWsc_WXpm3tSW1NvT2oLf7rHWXMclvgW2P7t7Mr3VYjD7VewZQnA5rGPYyqi2=s1360-w1360-h1020-rw' },
+          { id: '5', title: 'Evening Illumination', category: 'Restaurant Interior', image: 'https://lh3.googleusercontent.com/gps-cs-s/APNQkAHeOCsmLh5Gz2yf46TVXM1d19azYTB4vB4W8Jp1v0hlxJW_KffO5PSBjCBQOxB8ZbIO4m6dWKdwnaKmdvtyol4z7cR3YCppVrb5dcphnHhQF5RiEaquaP-xBagSgUgmQcqlj2KCSYsGJ7Rv=s1360-w1360-h1020-rw' }
         ]);
       } finally {
         setLoading(false);
