@@ -49,10 +49,7 @@ const Navbar = () => {
             <Utensils className="h-8 w-8 text-accent group-hover:rotate-12 transition-transform duration-300" />
             <div className="flex flex-col text-left">
               <span className="text-xl font-bold tracking-widest text-white font-serif uppercase">
-                Aroma <span className="text-accent">Spices</span>
-              </span>
-              <span className="text-[9px] uppercase tracking-[0.2em] text-accent/80 -mt-1">
-                Gardens
+                Aroma <span className="text-accent">Spices Gardens</span>
               </span>
             </div>
           </Link>
