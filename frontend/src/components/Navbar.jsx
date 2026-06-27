@@ -52,7 +52,7 @@ const Navbar = () => {
                 Aroma <span className="text-accent">Spices</span>
               </span>
               <span className="text-[9px] uppercase tracking-[0.2em] text-accent/80 -mt-1">
-                Authentic Andhra Cuisine
+                Gardens
               </span>
             </div>
           </Link>

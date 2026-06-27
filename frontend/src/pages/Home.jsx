@@ -7,8 +7,8 @@ const Home = () => {
   const features = [
     {
       icon: <Award className="h-8 w-8 text-accent" />,
-      title: "Authentic Andhra Cuisine",
-      desc: "Rich, spicy recipes originating from traditional kitchens of Andhra Pradesh."
+      title: "Gardens",
+      desc: "Beautiful open-air garden seating and premium dining ambiance."
     },
     {
       icon: <Users className="h-8 w-8 text-accent" />,
