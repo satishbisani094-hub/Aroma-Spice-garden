@@ -66,7 +66,7 @@ const About = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-primary/20 rounded-lg -rotate-3 transform -z-10" />
             <img
-              src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=600"
+              src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAGV-t2vHJ_3HjHkO4HveC01zaY-jH4Ga7DXJo3PXZvgClSsjkAU_7rXbLi2WKVCzZqiBArb2R_nj0SwovmGpKcVef0QbDyUhoJCLnpzTKlB45p4_FjdIo5wR802d88iweKX13HuyTMt9Lj3=s1360-w1360-h1020-rw"
               alt="Kitchen cooking food"
               className="rounded-lg shadow-xl border border-accent/20 object-cover w-full h-[400px]"
             />
