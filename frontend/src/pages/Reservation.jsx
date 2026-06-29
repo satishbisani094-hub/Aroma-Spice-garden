@@ -167,7 +167,7 @@ const Reservation = () => {
                     required
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="e.g. +91 9876543210"
+                    placeholder="e.g. +91 9573145154"
                     className="block w-full border border-white/10 rounded-md bg-black/40 text-white placeholder-gray-600 px-3 py-2.5 text-sm focus:outline-none focus:ring-1 focus:ring-accent"
                   />
                 </div>

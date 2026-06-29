@@ -2,8 +2,8 @@ import React from 'react';
 import { Phone, MessageCircle } from 'lucide-react';
 
 const FloatingActions = () => {
-  const phoneNumber = '+919876543210';
-  const whatsappNumber = '919876543210';
+  const phoneNumber = '+919573145154';
+  const whatsappNumber = '919573145154';
   const whatsappMessage = encodeURIComponent("Hello Aroma Spices! I'd like to ask about the menu / book a table.");
 
   return (

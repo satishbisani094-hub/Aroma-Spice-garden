@@ -55,8 +55,8 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6 text-accent" />,
       title: "Call Us Directly",
-      desc: "+91 98765 43210 / +91 98765 01234",
-      action: "tel:+919876543210",
+      desc: "+91 95731 45154 / +91 98765 01234",
+      action: "tel:+919573145154",
       actionLabel: "Call Now"
     },
     {
@@ -176,7 +176,7 @@ const Contact = () => {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="e.g. +91 9876543210"
+                      placeholder="e.g. +91 9573145154"
                       className="block w-full border border-white/10 rounded-md bg-black/40 text-white placeholder-gray-600 px-3 py-2.5 text-sm focus:outline-none focus:ring-1 focus:ring-accent"
                     />
                   </div>
@@ -235,7 +235,7 @@ const Contact = () => {
             <p className="text-sm text-gray-400">Connect with our support team on WhatsApp for immediate response regarding party bookings.</p>
           </div>
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/919573145154"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 px-6 py-3 bg-[#25D366] hover:bg-[#20ba5a] text-white rounded font-bold uppercase tracking-wider transition-colors"

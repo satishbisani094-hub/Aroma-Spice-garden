@@ -107,7 +107,7 @@ const Home = () => {
               Book A Table
             </Link>
             <a
-              href="tel:+919876543210"
+              href="tel:+919573145154"
               className="w-full sm:w-auto px-8 py-3.5 bg-black/50 hover:bg-black/80 text-white font-semibold rounded-md uppercase tracking-wider border border-white/10 hover:border-white/30 transition-all duration-300 flex items-center justify-center space-x-2"
             >
               <Phone className="h-4 w-4 text-accent" />

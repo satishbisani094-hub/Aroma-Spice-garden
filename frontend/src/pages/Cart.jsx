@@ -12,7 +12,7 @@ const Cart = () => {
   const [specialInstructions, setSpecialInstructions] = useState('');
 
   // Default Restaurant WhatsApp Number (Aroma Spices Restaurant)
-  const RESTAURANT_WHATSAPP_NUMBER = '919876543210'; 
+  const RESTAURANT_WHATSAPP_NUMBER = '919573145154'; 
 
   const handleQuantityChange = (id, size, change) => {
     const item = cartItems.find(i => i.id === id && i.selectedSize === size);
@@ -328,7 +328,7 @@ const Cart = () => {
                 <input
                   type="tel"
                   required
-                  placeholder="e.g. +91 98765 43210"
+                  placeholder="e.g. +91 95731 45154"
                   value={customerPhone}
                   onChange={(e) => setCustomerPhone(e.target.value)}
                   className="w-full bg-black/40 border border-white/10 rounded-md px-3.5 py-2 text-sm text-white placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-accent focus:border-accent"
