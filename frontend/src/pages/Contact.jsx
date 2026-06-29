@@ -55,7 +55,7 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6 text-accent" />,
       title: "Call Us Directly",
-      desc: "+91 95731 45154 / +91 98765 01234",
+      desc: "+91 95731 45154",
       action: "tel:+919573145154",
       actionLabel: "Call Now"
     },
